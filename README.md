@@ -1,4 +1,8 @@
-# Wolt engineering-summer-intern-2023 - sujan raj shrestha
+# Wolt assignment for engineering-summer-intern-2023
+
+# Built using: TypeScript | React | MUI | JestTesting
+
+# [Click Here](https://sujanrajs-delivery-calculator.netlify.app/) for live website
 
 # Available Scripts
 
