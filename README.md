@@ -4,26 +4,7 @@
 
 # [Click Here](https://sujanrajs-delivery-calculator.netlify.app/) for live website
 
-# Available Scripts
-
-In the project directory, you can run:
-
-# `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-# `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-#
-
-## Rules for calculating a delivery fee
+# Rules for calculating a delivery fee
 
 - If the cart value is less than 10€, a small order surcharge is added to the delivery price. The surcharge is the difference between the cart value and 10€. For example if the cart value is 8.90€, the surcharge will be 1.10€.
 - A delivery fee for the first 1000 meters (=1km) is 2€. If the delivery distance is longer than that, 1€ is added for every additional 500 meters that the courier needs to travel before reaching the destination. Even if the distance would be shorter than 500 meters, the minimum fee is always 1€.
@@ -49,3 +30,22 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 | Delivery distance | Integer     | The distance between the store and customer’s location **in meters**.                                   | **2235** (2235 meters = 2.235 km)        |
 | Number of items   | Integer     | The **number of items** in the customer's shopping cart.                                                | **4** (customer has 4 items in the cart) |
 | Order time        | Date + Time | The date/time when the order is being made (see rules-section how rush hours affect the delivery price) | You can choose the most suitable format  |
+
+#
+
+# Available Scripts
+
+In the project directory, you can run:
+
+# `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+# `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
